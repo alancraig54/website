@@ -1,0 +1,146 @@
+body {
+    display: flex;
+    height: 98vw;
+    width: 98 vw;
+    background-image: url("bg.jpg");
+    background-position: center;
+    background-repeat:no repeat;
+    background-size: cover;
+    flex-direction: column;
+    background-attachment: fixed;
+    background-attachment: fixed;
+}
+
+.header {
+    display: flex;
+    width: 100%;
+    height: 10%;
+    background-image: url("bg.jpg");
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    justify-content: center;
+    padding-top: 40px;
+    padding-bottom: 40x;
+    font-size: larger;
+    color:white;
+    
+}
+
+.navbar { 
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background: #465749b4;
+    justify-content: space-around;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color:white;
+    font-size: larger;
+    list-style: none;
+    align-content: center;
+}
+
+.contentWrapper {
+    height: 50%;
+    width: 98.5%;
+    background-color: #465749b4;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    align-content: center;
+
+}    
+
+
+.leftContent {
+    height: auto;
+    width: 45%;
+    background-color:  #465749b4;
+    border-radius: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+    
+}
+
+.rightContent {
+    height: auto;
+    width: 40%;
+    background-color: #465749b4;
+    border-radius: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: wheat;
+}
+
+image {
+    display: flex;
+    padding-right: 20px;
+    height: 90%;
+    width: auto;
+    justify-self: center;
+}
+
+img {
+    width: 99%;
+    height: 45vw;;
+    object-fit: cover;
+    justify-content: center;
+}
+
+.about {
+    height: auto;
+    width: 95.2vw;
+    background-color: #465749b4;
+    position: bottom;
+    display: flex;
+    color: wheat;
+    flex-direction: column;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+
+.footer {
+    background: #465749b4;
+    color: wheat;
+    padding-left: 20px;
+}
+
+
+a, a:hover, a:visited, a:active {
+    color: inherit;
+    text-decoration: none;
+   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
